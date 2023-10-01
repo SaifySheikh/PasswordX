@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PasswordX</title>
+    <link rel="website icon" type="jpg" href="passX.png"/>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+        <div id="header-content">
+            <a href="index.html"><img id="logo" src="passX.png" alt="Logo" style="height: 95% ; width: 95%; margin: 5%;"/></a>
+            <a id="company-name" href="index.html">PasswordX</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">Project</a>
+                    <ul>
+                        <li><a href="https://github.com/SaifySheikh">Web Development</a></li>
+                        <li><a href="https://github.com/SaifySheikh">React</a></li>
+                        <li><a href="https://github.com/SaifySheikh">Python</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/saify-sheikh-01a1bh34/">Linkedin</a></li>
+                        <li><a href="https://github.com/SaifySheikh">Github</a></li>
+                        <li><a href="https://www.instagram.com/saify_sheikh_1/">Instagram</a></li>
+                        <li><a href="https://twitter.com/Saify_Sheikh_1">Twitter</a></li>
+                    </ul>
+                </li>
+                <li><a href="index1.html">Add Data</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div id="data-check" style="display: block;"></div>
+    <h2 id="stored-data">Stored Data</h2>
+    <table style="max-width: 75%;">
+        <thead>
+            <tr>
+                <th>Sr No.</th>
+                <th>Website</th>
+                <th>Username</th>
+                <th>Password</th>
+                <th>Action</th>
+                <th>Copy</th>
+            </tr>
+        </thead>
+        <tbody id="data-table">
+            <!-- Populate this section with data -->
+        </tbody>
+    </table>
+    <Button id="back-to-entry-form" style="height: 100%;"><a href="index1.html" style="text-decoration: none; color: aliceblue;">Back to Form</a></Button>
+    <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/SaifySheikh">
+                <ion-icon name="logo-github"></ion-icon>
+              </a></li>  
+          <li class="social-icon__item"><a class="social-icon__link" href="https://twitter.com/Saify_Sheikh_1">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/saify-sheikh/">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/saify_sheikh_1/">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+          <li class="menu__item"><a class="menu__link" href="https://www.linkedin.com/in/saify-sheikh/">Contact</a></li>
+        </ul>
+        <p>&copy;2023 Mohammad Saify Sheikh | All Rights Reserved</p>
+      </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script2.js"></script>
+</body>
+</html>

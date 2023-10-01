@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="main.css">
+    <title>PasswordX</title>
+    <link rel="website icon" type="jpg" href="passX.png"/>
+    <link rel="website icon" type="png" href="code haven.jpg" style="border-radius: 50px;"/>
+</head>
+<body>
+    <header>
+        <div id="header-content">
+            <a href="index.html"><img id="logo" src="passX.png" alt="Logo" style="height: 95% ; width: 95%; margin: 5%;"/></a>
+            <a id="company-name" href="index.html">PasswordX</a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li>
+                    <a href="#">Project</a>
+                    <ul>
+                        <li><a href="https://github.com/SaifySheikh">Web Development</a></li>
+                        <li><a href="https://github.com/SaifySheikh">React</a></li>
+                        <li><a href="https://github.com/SaifySheikh">Python</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                    <ul>
+                        <li><a href="https://www.linkedin.com/in/saify-sheikh-01a1bh34/">Linkedin</a></li>
+                        <li><a href="https://github.com/SaifySheikh">Github</a></li>
+                        <li><a href="https://www.instagram.com/saify_sheikh_1/">Instagram</a></li>
+                        <li><a href="https://twitter.com/Saify_Sheikh_1">Twitter</a></li>
+                    </ul>
+                </li>
+                <li><a href="stored.html">Database</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="middle">
+        <div class="middle-left">
+            <div class="container">
+                <h2>Enter Data</h2>
+                <form id="password-form">
+                    <div class="form-group">
+                        <label for="website">Website:</label>
+                        <input type="text" id="website" name="website" placeholder="Enter website Name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="username">Username:</label>
+                        <input type="text" id="username" name="username" placeholder="Enter username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password:</label>
+                        <input type="password" id="password" name="password" placeholder="Enter password" required>
+                    </div>
+                    <button type="submit" onclick="hideNoDataMessage()">Add To Database</button>
+                </form>
+            </div>
+            <button id="view-database" style="display: none; margin-top:5px;margin-bottom: 10%;"><a href="stored.html" style="text-decoration: none; color: aliceblue;">View Database</a></button>
+        </div>
+        <div class="instructions-box">
+            <h4 class="instructionbox-header">Instructions</h4>
+            <ol class="c">
+                <li style="font-size: 20px; margin-top: 7px;">Adding Data: If you want to add data, click on "Add Data" in the navigation menu.</li>
+                <li style="font-size: 20px; margin-top: 7px;">Viewing Stored Data: To view stored data, scroll down to the "Stored Data" section on the page. You'll find a table that lists your saved data, including website names, usernames, and passwords.</li>
+                <li style="font-size: 20px; margin-top: 7px;">Copying Data: If you need to copy a piece of data from the table, click the "Copy" button in the "Action" column for the respective row. </li>
+                <li style="font-size: 20px; margin-top: 7px;">Contact Information: For inquiries or to connect with the website owner, visit the "Contact" section. You'll find links to the owner's LinkedIn, GitHub, Instagram, and other social profiles.</li>
+                
+            </ol>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="waves">
+          <div class="wave" id="wave1"></div>
+          <div class="wave" id="wave2"></div>
+          <div class="wave" id="wave3"></div>
+          <div class="wave" id="wave4"></div>
+        </div>
+        <ul class="social-icon">
+            <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/SaifySheikh">
+                <ion-icon name="logo-github"></ion-icon>
+              </a></li>  
+          <li class="social-icon__item"><a class="social-icon__link" href="https://twitter.com/Saify_Sheikh_1">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/saify-sheikh/">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a></li>
+          <li class="social-icon__item"><a class="social-icon__link" href="https://www.instagram.com/saify_sheikh_1/">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a></li>
+        </ul>
+        <ul class="menu">
+          <li class="menu__item"><a class="menu__link" href="index.html">Home</a></li>
+          <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+          <li class="menu__item"><a class="menu__link" href="https://www.linkedin.com/in/saify-sheikh/">Contact</a></li>
+    
+        </ul>
+        <p>&copy;2023 Mohammad Saify Sheikh | All Rights Reserved</p>
+      </footer>
+      <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+      <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="script1.js"></script>
+</body>
+</html>
